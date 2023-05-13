@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class JDBCExample {
+public class Main {
     public static void main(String[] args) {
         String dbUrl = "jdbc:postgresql://" + args[0] + ":" + args[1] + "/" + args[2];
         String username = args[3];
